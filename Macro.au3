@@ -49,14 +49,14 @@ Select
 				"MouseClick("""", $Fight[0], $Fight[1])" & @CRLF & _
 				"Local $Move = _PixelSearch_Loop(" & $Move & ", " & $MoveColour & ")" & @CRLF & _
 				"MouseClick("""", $Move[0], $Move[1])" & @CRLF & _
-				"Sleep(3000)" & @CRLF & _
+				"Sleep(4000)" & @CRLF & _
 				"Local $No = _PixelSearch_Loop(" & $No & ", " & $NoColour & ")" & @CRLF & _
 				"MouseClick("""", $No[0], $No[1])" & @CRLF & _
 				"Local $Fight = _PixelSearch_Loop(" & $Fight & ", " & $FightColour & ")" & @CRLF & _
 				"MouseClick("""", $Fight[0], $Fight[1])" & @CRLF & _
 				"Local $Move = _PixelSearch_Loop(" & $Move & ", " & $MoveColour & ")" & @CRLF & _
 				"MouseClick("""", $Move[0], $Move[1])" & @CRLF & _
-				"Sleep(3000)" & @CRLF & _
+				"Sleep(4000)" & @CRLF & _
 				"Local $No = _PixelSearch_Loop(" & $No & ", " & $NoColour & ")" & @CRLF & _
 				"MouseClick("""", $No[0], $No[1])" & @CRLF & _
 				"Local $Fight = _PixelSearch_Loop(" & $Fight & ", " & $FightColour & ")" & @CRLF & _
