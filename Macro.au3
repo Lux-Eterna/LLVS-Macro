@@ -95,7 +95,7 @@ Func _MainScript()
 		RegRead($Registry, "FightButton")
 		If Not @error Then
 			Local $CheckColour = RegRead($Registry, "FightColour")
-			If $CheckColour <> "0xFFFFFF" Then ExitLoop
+			If $CheckColour <> "0xFFFFFF" And $CheckColour <> "0x8A8A8A" Then ExitLoop
 		EndIf
 	WEnd
 	HotKeySet("[")
