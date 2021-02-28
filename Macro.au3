@@ -1,10 +1,12 @@
 #include <MsgBoxConstants.au3>
 
+#Region Constants
 Global Const $LLGDir = @UserProfileDir & "\LLGrinder\"
 Global Const $Registry = "HKEY_CURRENT_USER\Software\LLGrinder"
 Global Const $RanNum = Round(Random(999, 9999999))
 Global Const $LLGAu3 = $LLGDir & $RanNum & ".au3"
 Global Const $LLGExe = @DesktopDir & "\" & $RanNum & ".exe"
+#EndRegion Constants
 
 RegDelete($Registry)
 DirCreate($LLGDir)
@@ -244,6 +246,7 @@ Func _GetNoColour()
 EndFunc   ;==>_GetNoColour
 
 ; #include doesnt work so i had to manually put in the rundos function lol
+
 Func _RunDos($sCommand)
 	Local $iResult = RunWait(@ComSpec & " /C " & $sCommand, "", @SW_HIDE)
 	Return SetError(@error, @extended, $iResult)
