@@ -1,5 +1,7 @@
 # LLVS-Macro
-A macro specifically designed for the game "Loomian Legacy".
+Automate grinding in "Loomian Legacy".
 
 "[" to start
 "`" to exit
+
+lol i don't think anyone is visiting this page but hey atleast this app works fine for me lol
